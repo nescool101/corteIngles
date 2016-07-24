@@ -1,0 +1,158 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>TestCorteIngles</groupId>
+  <artifactId>TestCorteIngles</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>TestCorteInglesv2</name>
+  <description>TestCorteInglesv2 OK</description>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <resources>
+      <resource>
+        <directory>src</directory>
+        <excludes>
+          <exclude>**/*.java</exclude>
+        </excludes>
+      </resource>
+    </resources>
+  </build>
+  <dependencies>
+  	<dependency>
+  		<groupId>mysql</groupId>
+  		<artifactId>mysql-connector-java</artifactId>
+  		<version>6.0.2</version>
+  	</dependency>
+  	<dependency>
+    <groupId>com.opensymphony</groupId>
+    <artifactId>xwork</artifactId>
+    <version>2.1.2</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.struts</groupId>
+    <artifactId>struts2-core</artifactId>
+    <version>2.1.6</version>
+</dependency>
+  	<dependency>
+  		<groupId>tomcat</groupId>
+  		<artifactId>servlet-api</artifactId>
+  		<version>5.5.23</version>
+  	</dependency>
+  	<dependency>
+    <groupId>commons-collections</groupId>
+    <artifactId>commons-collections</artifactId>
+    <version>3.1</version>
+</dependency>
+<dependency>
+    <groupId>antlr</groupId>
+    <artifactId>antlr</artifactId>
+    <version>2.7.6</version>
+</dependency>
+<dependency>
+    <groupId>commons-fileupload</groupId>
+    <artifactId>commons-fileupload</artifactId>
+    <version>1.2.1</version>
+</dependency>
+<dependency>
+    <groupId>commons-lang</groupId>
+    <artifactId>commons-lang</artifactId>
+    <version>2.3</version>
+</dependency>
+<dependency>
+    <groupId>dom4j</groupId>
+    <artifactId>dom4j</artifactId>
+    <version>1.6.1</version>
+</dependency>
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>ejb3-persistence</artifactId>
+    <version>1.0.2.GA</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.freemarker</groupId>
+    <artifactId>freemarker</artifactId>
+    <version>2.3.13</version>
+</dependency>
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>4.3.6.Final</version>
+</dependency>
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-commons-annotations</artifactId>
+    <version>3.2.0.Final</version>
+</dependency>
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-validator</artifactId>
+    <version>5.1.3.Final</version>
+</dependency>
+<dependency>
+    <groupId>com.atomikos</groupId>
+    <artifactId>transactions-hibernate3</artifactId>
+    <version>3.9.3</version>
+</dependency>
+<dependency>
+    <groupId>hsqldb</groupId>
+    <artifactId>hsqldb</artifactId>
+    <version>1.8.0.7</version>
+</dependency>
+<dependency>
+    <groupId>org.javassist</groupId>
+    <artifactId>javassist</artifactId>
+    <version>3.15.0-GA</version>
+</dependency>
+<dependency>
+    <groupId>javax.transaction</groupId>
+    <artifactId>jta</artifactId>
+    <version>1.1</version>
+</dependency>
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>3.8.1</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-log4j12</artifactId>
+    <version>1.5.8</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.struts</groupId>
+    <artifactId>struts2-convention-plugin</artifactId>
+    <version>2.1.8</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.struts</groupId>
+    <artifactId>struts2-core</artifactId>
+    <version>2.1.6</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>tomcat-servlet-api</artifactId>
+    <version>7.0.19</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.struts.xwork</groupId>
+    <artifactId>xwork-core</artifactId>
+    <version>2.2.1</version>
+</dependency>
+<dependency>
+    <groupId>ognl</groupId>
+    <artifactId>ognl</artifactId>
+    <version>2.7.3</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>1.5.8</version>
+</dependency>
+<dependency>
+    <groupId>net.sf.jasperreports</groupId>
+    <artifactId>jasperreports</artifactId>
+    <version>5.5.0</version>
+</dependency>
+
+  </dependencies>
+</project>
